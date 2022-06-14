@@ -1,0 +1,15 @@
+criar um arquivo html com sua biografia:
+1- o nome do arquivo deve ser como o modelo seuNomeESobernome.html
+2- deve conter:
+    2.1 - titulo com seu nome;
+    2.2 - foto de apresentação;
+    2.3 - uma seçao sobre;
+    2.4 - uma seção experiencia profissional;
+    2.5 - uma seção gosto pessoais (livros,filmes,musicas,esportes,lugares e etc);
+    2.6 - uma seção meu futuro;
+    2.7 - opcional outras secões que ache importante para sua bio;
+    2.8 - um link que direcione novamente para home.html;
+
+3 - Essa atividade será usada para estudo de html , css , git e github.
+
+4 - quando completarmos colocaremos no ar e no

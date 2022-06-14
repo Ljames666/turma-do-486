@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+#orange {
+  height: 100%;
+  width: 50%;
+  float: left;
+  background-color: #e16e0e;
+  box-shadow: 10px 10px 100px #e16e0e;
+  animation-name: orangeSection;
+  animation-duration: 2s;
+  animation-delay: 1s;
+}
+@keyframes orangeSection {
+  0% {
+    width: 100%;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+#card {
+  top: 25%;
+  left: 35%;
+  width: 30%;
+  height: 50%;
+  background-color: #294061;
+  border-radius: 50px;
+  box-shadow: 10px 10px 50px rgb(0, 0, 0);
+  position: fixed;
+  animation-name: cardEnter;
+  animation-duration: 2s;
+
+  animation-delay: 1s;
+}
+
+@keyframes cardEnter {
+  0% {
+    top: 0%;
+  }
+
+  100% {
+    top: 25%;
+  }
+}
+
+#dev img {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+#growdev img {
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 160px;
+}
+
+.div {
+  margin: 20px 100px;
+  border: 2px solid #294061;
+  border-radius: 5px;
+}
+
+div a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 90px;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+h3 {
+  margin-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
